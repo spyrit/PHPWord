@@ -48,6 +48,9 @@ class Field extends Text
                 case 'dateformat':
                     $instruction .= '\@ "' . $propval . '" ';
                     break;
+                case 'bookmarkId':
+                    $instruction .= '' . $propval . ' \h ';
+                    break;
             }
         }
 
