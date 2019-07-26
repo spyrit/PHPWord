@@ -38,6 +38,13 @@ class Field extends AbstractElement
            ),
            'options' => array('PreserveFormat'),
         ),
+        'PAGEREF'=>array(
+            'properties'=>array(
+                'bookmarkId' => array(),
+                'format' => array('Arabic', 'ArabicDash', 'alphabetic', 'ALPHABETIC', 'roman', 'ROMAN'),
+            ),
+            'options'=>array('PreserveFormat')
+        ),
         'NUMPAGES' => array(
            'properties' => array(
                'format' => array('Arabic', 'ArabicDash', 'CardText', 'DollarText', 'Ordinal', 'OrdText',

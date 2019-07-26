@@ -177,6 +177,9 @@ class Field extends Text
                 case 'macroname':
                     $propertiesAndOptions .= $propval . ' ';
                     break;
+                case 'bookmarkId':
+                    $propertiesAndOptions .= '' . $propval . ' \h ';
+                    break;
                 default:
                     $propertiesAndOptions .= '"' . $propval . '" ';
                     break;
